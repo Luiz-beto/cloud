@@ -1,0 +1,11 @@
+# Ignorar arquivos de variáveis sensíveis do Terraform
+terraform.tfvars
+*.tfstate
+*.tfstate.backup
+
+# Ignorar arquivos do Terraform local
+.terraform/
+
+# Ignorar arquivos pycache (Python)
+__pycache__/
+*.pyc

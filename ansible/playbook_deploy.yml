@@ -1,0 +1,36 @@
+- name: Provisionar e fazer deploy da API Biblioteca Digital
+  hosts: biblioteca_ec2
+  become: yes
+  tasks:
+
+    - name: Atualizar repositórios e pacotes
+      apt:
+        update_cache: yes
+        upgrade: yes
+
+    - name: Instalar Python3, pip e git
+      apt:
+        name:
+          - python3
+          - python3-pip
+          - git
+        state: present
+
+    - name: Clonar o repositório da API (se não existir)
+      git:
+        repo: 'https://github.com/Luiz-beto/cloud.git'
+        dest: /home/ubuntu/biblioteca_api
+        version: main
+        force: yes
+
+    - name: Instalar dependências do projeto
+      pip:
+        requirements: /home/ubuntu/biblioteca_api/requirements.txt
+        executable: pip3
+
+    - name: Executar a API com Gunicorn (background)
+      shell: |
+        pkill gunicorn || true
+        nohup gunicorn --bind 0.0.0.0:5000 app:app &
+      args:
+        chdir: /home/ubuntu/biblioteca_api

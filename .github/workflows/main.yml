@@ -14,10 +14,10 @@ jobs:
       - name: Checkout do código
         uses: actions/checkout@v3
 
-      - name: Configurar Python 3.13
+      - name: Configurar Python
         uses: actions/setup-python@v4
         with:
-          python-version: 3.13
+          python-version: 3.11  # ou 3.12
 
       - name: Instalar dependências
         run: |
@@ -26,4 +26,4 @@ jobs:
 
       - name: Executar testes unitários
         run: |
-          pytest test_app.py
+          pytest test_app.py  # ou apenas `pytest`
