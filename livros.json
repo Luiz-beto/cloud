@@ -1,0 +1,105 @@
+
+
+[
+  {
+    "id_livro": "ISBN978-3-16-148410-0",
+    "titulo": "A Odisséia Digital: Navegando pela Era da Informação",
+    "autor": "Dr. Elara Vance",
+    "editora": "Edições Conhecimento Futuro",
+    "ano_publicacao": 2023,
+    "genero": "Tecnologia e Sociedade",
+    "formato_disponivel": ["PDF", "EPUB"],
+    "capa_url": "capa_odisseia_digital.png"
+  },
+  {
+    "id_livro": "ISBN978-0-12-345678-9",
+    "titulo": "O Jardim Secreto dos Algoritmos",
+    "autor": "Prof. Alan Turing Jr.",
+    "editora": "Companhia dos Códigos",
+    "ano_publicacao": 2024,
+    "genero": "Ficção Científica",
+    "formato_disponivel": ["EPUB", "MOBI"],
+    "capa_url": "capa_jardim_algoritmos.png"
+  },
+  {
+    "id_livro": "ISBN978-1-23-456789-0",
+    "titulo": "Código Limpo para Mentes Criativas",
+    "autor": "Grace Hopper",
+    "editora": "TechPress",
+    "ano_publicacao": 2022,
+    "genero": "Programação",
+    "formato_disponivel": ["PDF"],
+    "capa_url": "capa_codigo_limpo.png"
+  },
+  {
+    "id_livro": "ISBN978-4-56-789012-3",
+    "titulo": "A Revolução dos Dados",
+    "autor": "Ada Lovelace",
+    "editora": "Editora Algoritmos",
+    "ano_publicacao": 2025,
+    "genero": "Ciência de Dados",
+    "formato_disponivel": ["EPUB", "PDF"],
+    "capa_url": "capa_revolucao_dados.png"
+  },
+  {
+    "id_livro": "ISBN978-5-67-890123-4",
+    "titulo": "Segurança em Sistemas Digitais",
+    "autor": "Whitfield Diffie",
+    "editora": "CryptoBooks",
+    "ano_publicacao": 2021,
+    "genero": "Segurança da Informação",
+    "formato_disponivel": ["PDF", "MOBI"],
+    "capa_url": "capa_seguranca_sistemas.png"
+  },
+  {
+    "id_livro": "ISBN978-6-78-901234-5",
+    "titulo": "Inteligência Artificial para Todos",
+    "autor": "Marvin Minsky",
+    "editora": "AI Publishers",
+    "ano_publicacao": 2023,
+    "genero": "Inteligência Artificial",
+    "formato_disponivel": ["EPUB"],
+    "capa_url": "capa_ia_para_todos.png"
+  },
+  {
+    "id_livro": "ISBN978-7-89-012345-6",
+    "titulo": "Fronteiras da Computação Quântica",
+    "autor": "David Deutsch",
+    "editora": "Quantum Press",
+    "ano_publicacao": 2024,
+    "genero": "Computação Quântica",
+    "formato_disponivel": ["PDF"],
+    "capa_url": "capa_computacao_quantica.png"
+  },
+  {
+    "id_livro": "ISBN978-8-90-123456-7",
+    "titulo": "Redes Neurais e Aprendizado Profundo",
+    "autor": "Geoffrey Hinton",
+    "editora": "Deep Learning Editora",
+    "ano_publicacao": 2025,
+    "genero": "Machine Learning",
+    "formato_disponivel": ["EPUB", "PDF"],
+    "capa_url": "capa_redes_neurais.png"
+  },
+  {
+    "id_livro": "ISBN978-9-01-234567-8",
+    "titulo": "Histórias da Computação",
+    "autor": "Tim Berners-Lee",
+    "editora": "História Digital",
+    "ano_publicacao": 2020,
+    "genero": "História",
+    "formato_disponivel": ["MOBI", "EPUB"],
+    "capa_url": "capa_historias_computacao.png"
+  },
+  {
+    "id_livro": "ISBN978-0-98-765432-1",
+    "titulo": "Paradigmas da Programação Moderna",
+    "autor": "Barbara Liskov",
+    "editora": "CodeBooks",
+    "ano_publicacao": 2023,
+    "genero": "Programação",
+    "formato_disponivel": ["PDF"],
+    "capa_url": "capa_paradigmas_programacao.png"
+  }
+]
+
