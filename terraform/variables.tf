@@ -33,3 +33,9 @@ variable "subnet_id" {
   type        = string
   default     = "subnet-06b920c294c5629f8"
 }
+
+variable "key_name" {
+  description = "Nome da chave SSH criada no AWS (EC2 Key Pair)"
+  type        = string
+  default     = "ansible"  # coloque o nome da sua chave criada no AWS aqui
+}
